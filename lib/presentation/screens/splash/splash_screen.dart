@@ -1,3 +1,4 @@
+import 'package:audio_book/presentation/common/text/light_text.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -5,8 +6,10 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("Splash screen"),
+    return const Scaffold(
+      body: Center(
+        child: LightText(text: 'Splash screen'),
+      ),
     );
   }
 }
