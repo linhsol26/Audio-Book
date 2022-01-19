@@ -1,3 +1,4 @@
+import 'package:audio_book/core/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class RegularText extends StatelessWidget {
@@ -8,7 +9,7 @@ class RegularText extends StatelessWidget {
     Key? key,
     required this.text,
     this.size = 16,
-    this.color = Colors.black,
+    this.color = AppColor.black,
   }) : super(key: key);
 
   @override
