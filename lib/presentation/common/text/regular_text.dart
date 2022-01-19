@@ -19,6 +19,7 @@ class RegularText extends StatelessWidget {
         overflow: TextOverflow.ellipsis,
         fontSize: size,
         color: color,
+        fontWeight: FontWeight.w400,
       ),
     );
   }

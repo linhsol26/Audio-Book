@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class LightText extends StatelessWidget {
+class BoldText extends StatelessWidget {
   final double size;
   final Color color;
   final String text;
-  const LightText({
+  const BoldText({
     Key? key,
     required this.text,
     this.size = 16,
@@ -19,7 +19,7 @@ class LightText extends StatelessWidget {
         overflow: TextOverflow.ellipsis,
         fontSize: size,
         color: color,
-        fontWeight: FontWeight.w300,
+        fontWeight: FontWeight.w700,
       ),
     );
   }
